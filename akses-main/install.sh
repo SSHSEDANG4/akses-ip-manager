@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "==INSTALL AKSES IP BY ENDKA=="
+echo "==INSTALL AKSES IP=="
 #INSTALL AKSES
 cd
 cd /usr/bin
