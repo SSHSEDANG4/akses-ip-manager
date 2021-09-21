@@ -1,5 +1,18 @@
 #!/bin/bash
 
+apt-get update
+
+# install webserver
+apt -y install nginx
+cd
+rm /etc/nginx/sites-enabled/default
+rm /etc/nginx/sites-available/default
+wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/SSHSEDANG4/vpn/main/nginx.conf"
+mkdir -p /home/vps/public_html
+echo "<h1><center>AutoScriptVPS By SSH SEDANG NETWORK</center></h1>" > /home/vps/public_html/index.html
+wget -O /etc/nginx/conf.d/vps.conf "https://raw.githubusercontent.com/SSHSEDANG4/vpn/main/vps.conf"
+/etc/init.d/nginx restart
+
 echo "==INSTALL AKSES IP=="
 #INSTALL AKSES
 cd
