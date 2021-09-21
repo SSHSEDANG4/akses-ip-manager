@@ -18,7 +18,7 @@ exit 0
 fi
 clear
 echo -e "\e[1;32m═══════════════════════════════════════\e[m"
-echo -e "          \e[1;31m\e[1;31m═[\e[mIP Manager | SSN\e[1;31m]═\e[m" 
+echo -e "          \e[1;31m\e[1;31m═[\e[mIP Manager | SSH SEDANG NETWORK\e[1;31m]═\e[m" 
 echo -e "\e[1;32m═══════════════════════════════════════\e[m"
 echo -e " 1\e[1;33m)\e[m  Add IP VPS"
 echo -e " 2\e[1;33m)\e[m  Delete IP VPS"
