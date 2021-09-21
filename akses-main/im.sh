@@ -42,6 +42,6 @@ x)
 menu
 ;;
 *)
-menu
+echo -e "Sampai Jumpa Lagi"
 ;;
 esac
