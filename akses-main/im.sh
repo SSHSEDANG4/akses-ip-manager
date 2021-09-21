@@ -19,7 +19,7 @@ fi
 clear
 figlet IP Manager | lolcat
 echo -e "\e[1;32m═══════════════════════════════════════\e[m" | lolcat
-echo -e "          \e[1;31m\e[1;31m═[\e[mIP Managet\e[1;31m]═\e[m" 
+echo -e "          \e[1;31m\e[1;31m═[\e[mIP Manager\e[1;31m]═\e[m" 
 echo -e "\e[1;32m═══════════════════════════════════════\e[m" | lolcat
 echo -e " 1\e[1;33m)\e[m  Add IP VPS"
 echo -e " 2\e[1;33m)\e[m  Delete IP VPS"
@@ -27,7 +27,7 @@ echo -e " 3\e[1;33m)\e[m  Backup [CLOSE]"
 echo -e " 4\e[1;33m)\e[m  Restore [CLOSE]"
 echo -e ""
 echo -e "\e[1;32m══════════════════════════════════════════\e[m" | lolcat
-echo -e " Klik Enter Untuk Kembali Ke Menu"
+echo -e " Klik Enter Untuk Keluar Menu"
 echo -e "\e[1;32m══════════════════════════════════════════\e[m" | lolcat
 echo -e ""
 read -p "     Please Input Number  [ 1-4 ] :  "  v2ray
